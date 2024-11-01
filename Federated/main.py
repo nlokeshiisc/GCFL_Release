@@ -8,7 +8,7 @@ from coordinator import Coordinator
 import time
 from utils import set_seed, set_cuda_device, dict_print, plot_fed_pred_accs
 import logging
-
+from pathlib import Path
 import torch
 
 # Initiate the parser
@@ -44,6 +44,7 @@ for override_config in unknown_args:
     else:
         config[key] = value
 print(config, flush=True)
+Path("Federated/logs").mkdir(parents=True, exist_ok=True)
 logging.basicConfig(filename=f"Federated/logs/{str(config[constants.LOG_FILE])}",
                         format='%(asctime)s :: %(filename)s:%(funcName)s :: %(message)s',
                         filemode='w')

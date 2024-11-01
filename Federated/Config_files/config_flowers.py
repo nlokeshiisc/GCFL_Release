@@ -18,7 +18,7 @@ config = {
     },
 
     "client_specs": {
-        "subset_sel_strategy": constants.gm, # gm, random, full, skyline
+        "subset_sel_strategy": "gm", # gm, random, full, skyline
         "subset_sel_rnd": 10, # 5/10
         "misc": {
             # Put everything else here. For instance controlled_random may need us to specify the green/red ratio in the client samples

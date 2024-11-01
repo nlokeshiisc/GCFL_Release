@@ -2,7 +2,6 @@ import math
 import apricot
 import numpy as np
 import time
-from pyrsistent import v
 import torch
 from scipy.sparse import csr_matrix
 from torch.utils.data.sampler import SubsetRandomSampler

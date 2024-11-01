@@ -133,8 +133,8 @@ class Global_data:
                 "green_idxs": du.setdiff1d(torch.arange(len(clients_x[client_id])), clients_y_red[client_id][1]),
                 "red_idxs": clients_y_red[client_id][1]
             }
-            logger.info(f"Cliet {client_id} has {len(clients_x[client_id])} samples")
-            print(f"Cliet {client_id} has {len(clients_x[client_id])} samples")
+            logger.info(f"client {client_id} has {len(clients_x[client_id])} samples")
+            print(f"client {client_id} has {len(clients_x[client_id])} samples")
 
     def get_server_data(self):
         return self.server_data

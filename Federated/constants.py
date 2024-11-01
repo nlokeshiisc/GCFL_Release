@@ -7,8 +7,6 @@ MOBILENET = "mobilenet_v2"
 RESNET34 = "resnet-34"
 HID_DIM = "Hidden_dims"
 
-RANDOM = "random"
-
 FED_CLIDATA = "federated_client_data"
 FED_CLIWTS = "federated_client_data_wts"
 

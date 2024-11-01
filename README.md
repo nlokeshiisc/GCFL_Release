@@ -5,6 +5,8 @@
 - python >= 3.6
 - apricot (https://github.com/jmschrei/apricot)
 
+| We have released a [gcfl.yml](gcfl.yml) file which can be used to create a conda environment with all the required packages. </br>
+
 ----------
 
 ## Creating Datasets
